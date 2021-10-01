@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/background-disco.jpg");
+    height: 150vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aquamarine;
+    font-family: "Monoton", sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+    font-size: 300%;
+}
+
+footer {
+    position: absolute;
+    font-family: "Varela Round", sans-serif !important;
+    font-size: 100%;
+}
