@@ -26,7 +26,20 @@ footer {
 
 
 
-/* The Modal (background) */
+/* The Modal Box */
+
+#myBtn {
+  background-color: #A480F2;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
