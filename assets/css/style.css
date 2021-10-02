@@ -33,7 +33,6 @@ footer {
   text-align: center; 
 }
 
-
 .choice {
   display: inline-block;
   padding: 30px;  
@@ -42,6 +41,31 @@ footer {
 .choice:hover {
   cursor: pointer;
 }
+
+/* Results */
+
+.results-message {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+
+.results {
+  text-align: center;
+}
+
+#user-result {
+  display: inline-block;
+  padding: 20px, 
+
+}
+
+#computer-result {
+  display: inline-block;
+}
+
+
 
 
 /* The Modal Box */
