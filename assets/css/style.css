@@ -26,7 +26,7 @@ footer {
     font-size: 100%;
 }
 
-/* Images */
+/* Image Choice */
 
 .choices {
   margin: 50px;
@@ -42,27 +42,38 @@ footer {
   cursor: pointer;
 }
 
-/* Results */
+/* Results Section */
 
-.results-message {
+#results-message {
   text-align: center;
   font-size: 25px;
   font-weight: bold;
   
 }
 
-.results {
+.player {
+  display: inline-block;
   text-align: center;
+  float: left;
+  margin-left: 150px;
+  border: 5px solid white;
+  padding: 5px;
+  background-color: #FF82A8;
+  
+
+  
 }
 
-#user-result {
-  display: inline-block;
-  padding: 20px, 
 
-}
-
-#computer-result {
+.computer{
   display: inline-block;
+  text-align: center;
+  float: right;
+  margin-right: 150px;
+  border: 5px solid white;
+  padding: 5px;
+  background-color: #A480F2;
+  
 }
 
 
@@ -79,8 +90,10 @@ footer {
   text-decoration: none;
   float: right;
   font-family: "Monoton", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   cursor: pointer;
+  
+  
 }
 
 .modal {

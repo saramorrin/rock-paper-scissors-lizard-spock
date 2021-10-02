@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">  
+    <link rel="manifest" href="/site.webmanifest">
     <title>Rock, Paper, Scissors, Lizard, Spock</title>
 </head>
 <body>
@@ -35,16 +39,18 @@
                 <p>spock</p>
             </div>
         </div>
-        <div class=results-message>Result:</div>
-        <div class="results">
-            <div id="user-result">Your Choice:</div>
-            <div id="computer-result">Computer Choice:</div>   
+        <div id=results-message>Result:</div>
+        <div class="player">
+            <img id="player-image" src="assets/images/rock-result.png" alt="Rock">
+            <div class="scores">Your Score: <span id="player-score">0</span></div> 
         </div>
-        <div class="score-board">
-            <div id="user-score">Your Score:</div>
-            <div id="computer-score">Computer Score:</div>
+        <div class="computer">
+            <img id="computer-image" src="assets/images/scissors-result.png" alt="Scissors"> 
+            <div class="scores">Computer Score: <span id="computer-score">0</span></div>
+        </div>
+        
           
-        </div>
+        
         <!-- Trigger/Open The Modal -->
     <button id="myBtn">How to Play</button>
 
