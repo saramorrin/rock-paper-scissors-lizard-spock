@@ -20,7 +20,7 @@ h1, h2{
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     
     
     font-family: "Varela Round", sans-serif !important;
@@ -93,10 +93,12 @@ footer {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  float: right;
+  float: none;
   font-family: "Monoton", sans-serif;
   font-size: 20px;
   cursor: pointer;
+  position: absolute;
+  margin: 125px;
  
 }
 
