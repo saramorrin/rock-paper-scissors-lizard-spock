@@ -24,16 +24,23 @@ function win(playerChoice, computerChoice) {
   playerScore++;
   playerScore.innerHTML = playerScore;
   computerScore.innerHTML = computerScore;
-  message.innerHTML = playerChoice + "beats" + computerChoice + " you win! ";
+  message.innerHTML = playerChoice + " beats " + computerChoice + " you win! "
+  playerImage.src = `assets/images/${playerChoice[playerChoice]}.png;`
  
 }
 
-function lose() {
-  console.log("lose");
+function lose(playerChoice, computerChoice) {
+  computerScore++;
+  playerScore.innerHTML = playerScore;
+  computerScore.innerHTML = computerScore;
+  message.innerHTML = playerChoice + " loses to " + computerChoice + " you lose! "
+  playerImage.src = `assets/images/${playerChoice[playerChoice]}.png;`
 }
 
-function draw() {
-  console.log("draw");
+function draw(playerChoice, computerChoice) {
+  
+  message.innerHTML = playerChoice + " equals " + computerChoice + " it's a draw! "
+  playerImage.src = `assets/images/${playerChoice[playerChoice]}.png;`
 }
 
 /**
