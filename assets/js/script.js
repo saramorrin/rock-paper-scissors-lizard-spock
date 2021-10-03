@@ -21,26 +21,27 @@ function getComputerChoice() {
 }
 
 function win(playerChoice, computerChoice) {
-  playerScore++;
-  playerScore.innerHTML = playerScore;
-  computerScore.innerHTML = computerScore;
+  let playerScoreValue = parseInt(playerScore.innerHTML) + 1;
+  playerScore.innerHTML = playerScoreValue;
   message.innerHTML = playerChoice + " beats " + computerChoice + " you win! "
-  playerImage.src = `assets/images/${playerChoice[playerChoice]}.png;`
+  playerImage.src = `assets/images/${playerChoice}-result.png`
+  computerImage.src = `assets/images/${computerChoice}-result.png`
  
 }
 
 function lose(playerChoice, computerChoice) {
-  computerScore++;
-  playerScore.innerHTML = playerScore;
-  computerScore.innerHTML = computerScore;
+  let computerScoreValue = parseInt(computerScore.innerHTML) + 1;
+  computerScore.innerHTML = computerScoreValue;
   message.innerHTML = playerChoice + " loses to " + computerChoice + " you lose! "
-  playerImage.src = `assets/images/${playerChoice[playerChoice]}.png;`
+  playerImage.src = `assets/images/${playerChoice}-result.png`
+  computerImage.src = `assets/images/${computerChoice}-result.png`
 }
 
 function draw(playerChoice, computerChoice) {
   
   message.innerHTML = playerChoice + " equals " + computerChoice + " it's a draw! "
-  playerImage.src = `assets/images/${playerChoice[playerChoice]}.png;`
+  playerImage.src = `assets/images/${playerChoice}-result.png`
+  computerImage.src = `assets/images/${computerChoice}-result.png`
 }
 
 /**
