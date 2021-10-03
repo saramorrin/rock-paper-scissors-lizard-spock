@@ -1,3 +1,51 @@
+/** Declare constants for DOM elements and possible choices */
+
+const message = document.getElementById("results-message");
+const playerScore = document.getElementById("player-score");
+const computerScore = document.getElementById("computer-score");
+const playerImage = document.getElementById("player-image");
+const computerImage = document.getElementById("computer-image");
+const rock = document.getElementById("rock");
+const paper = document.getElementById("paper");
+const scissors = document.getElementById("scissors");
+const lizard = document.getElementById("lizard");
+const spock = document.getElementById("spock");
+
+/** 
+ * Add event listener for each choice
+ */
+
+
+  rock.addEventListener('click', function() {
+    console.log("hey");
+  })
+
+  paper.addEventListener('click', function() {
+    console.log("hey");  
+  })
+
+  scissors.addEventListener('click', function() {
+    console.log("hey");
+  })
+
+  lizard.addEventListener('click', function() {
+    console.log("hey");
+  })
+
+  spock.addEventListener('click', function() {
+    console.log("hey");
+  })
+  
+
+  /**
+   * The main game function, generate random choices
+   */
+
+  
+
+
+
+
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -23,3 +71,5 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -19,9 +20,9 @@ h1, h2{
 }
 
 footer {
-    position: fixed;
-    padding-top: 10px;
-    bottom: 0;
+    position: absolute;
+    
+    
     font-family: "Varela Round", sans-serif !important;
     font-size: 100%;
 }
