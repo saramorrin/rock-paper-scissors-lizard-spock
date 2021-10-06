@@ -264,6 +264,10 @@ footer {
         width: 100%;
         height: auto;
       }
+
+      footer {
+        font-size: 50%;
+    }
       
       
      

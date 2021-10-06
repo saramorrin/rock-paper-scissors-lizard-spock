@@ -25,7 +25,8 @@ function win(playerChoice, computerChoice) {
   playerScore.innerHTML = playerScoreValue;
   message.innerHTML = playerChoice + " beats " + computerChoice + " you win! "
   playerImage.src = `assets/images/${playerChoice}-result.png`
-  computerImage.src = `assets/images/${computerChoice}-result.png`
+  computerImage.src = `assets/images/${computerChoice}-result.png`;
+  checkWinner();
  
 }
 
@@ -34,18 +35,23 @@ function lose(playerChoice, computerChoice) {
   computerScore.innerHTML = computerScoreValue;
   message.innerHTML = playerChoice + " loses to " + computerChoice + " you lose! "
   playerImage.src = `assets/images/${playerChoice}-result.png`
-  computerImage.src = `assets/images/${computerChoice}-result.png`
+  computerImage.src = `assets/images/${computerChoice}-result.png`;
+  checkWinner();
 }
 
 function draw(playerChoice, computerChoice) {
   
   message.innerHTML = playerChoice + " equals " + computerChoice + " it's a draw! "
   playerImage.src = `assets/images/${playerChoice}-result.png`
-  computerImage.src = `assets/images/${computerChoice}-result.png`
+  computerImage.src = `assets/images/${computerChoice}-result.png`;
+  checkWinner();
 }
 
 
 function checkWinner() {
+  console.log("i am here");
+  let playerScoreValue = parseInt(playerScore.innerHTML);
+  let computerScoreValue = parseInt(computerScore.innerHTML);
   if (playerScoreValue === 5 || computerScoreValue === 5) {
     const winner = 
       playerScoreValue === 5
@@ -93,6 +99,7 @@ function game(playerChoice) {
     case "spockspock":
       draw(playerChoice, computerChoice);
       break;
+    
   }
   
 /** Add event listener for each choice */
@@ -126,23 +133,23 @@ function main() {
 /** How To Play Modal */
 
 
-var modal = document.getElementById("myModal");
+var instructionModal = document.getElementById("myModal");
 
-var btn = document.getElementById("myBtn");
+var instructionBtn = document.getElementById("myBtn");
 
-var span = document.getElementsByClassName("close")[0];
+var instructionSpan = document.getElementsByClassName("close")[0];
 
-btn.onclick = function() {
-  modal.style.display = "block";
+instructionBtn.onclick = function() {
+  instructionModal.style.display = "block";
 }
 
-span.onclick = function() {
-  modal.style.display = "none";
+instructionSpan.onclick = function() {
+  instructionModal.style.display = "none";
 }
 
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == instructionModal) {
+    instructionModal.style.display = "none";
   }
 }
 
