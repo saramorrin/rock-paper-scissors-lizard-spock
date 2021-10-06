@@ -1,108 +1,137 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Clement Yoga
 
-Welcome saramorrin,
+The Clement Yoga website is a website for people looking to practice yoga, either in a class environment, online at home or in a private one to one setting.  
+Clement Yoga also offers personalised meditation techniques and yoga retreats to its clients.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Users of the site will be able to see the services which Clement Yoga offer, along with a step by step simple meditation technique to follow at home and a contact page to get in touch for further details.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+A live website can be found [here](https://saramorrin.github.io/rock-paper-scissors-lizard-spock/)
 
-## Gitpod Reminders
+![Website Preview]()
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+# Site Design Considerations
 
-`python3 -m http.server`
+### Client Expectations
 
-A blue button should appear to click: _Make Public_,
+The basic functions requested by the client were:
+- Picture examples of the kinds of practices offered
+- A simple meditation demonstration to give potential clients some information to take away from the site which could be built upon should they wish to join
+- Convey a message of offering a way to deliver a more balanced, tranquil and mindful way of life through the practices and meditation techniques on available
+- Links to all social media channels, as currently most clients are directed to the business from these
+- Contact page where clients can get in touch with the company for further information
 
-Another blue button should appear to click: _Open Browser_.
+The client would like to have the ability to add further functionality at a later point to include a class timetable for yoga classes, an online booking form for yoga classes and a dedicated retreat page to showcase past retreat events. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The client would like the website to convey a welcoming, serene and tranquil tone, focusing on using cool pink and grey based hues.
 
-A blue button should appear to click: _Make Public_,
+### User Expectations
+- User to be able to quickly and easily understand to purpose of the site
+- User to be able to find simple navigation around the website
+- User to be able to locate business contact details
+- User to be able to locate business social media links
+- User to be able to contact the business without leaving the site and using an external source
+- User to be able to view the site across an array of devices without loss of functionality
+- A user with disabilities will be able to navigate the site freely without obstruction
 
-Another blue button should appear to click: _Open Browser_.
+## Colour Scheme and Font
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+[My Color Space](https://mycolor.space/?hex=%23D9BDB2&sub=1) was used to choose a complimentary colour pallet based on the images selected. The aim was to ensure the best use of contrasting colours inline with accessibility guidelines.  
+The colours used were:
+- #D9BDB2 background colour for site header and footer
+- #FFE9E5 background colour for site paragraph text and images
 
-To log into the Heroku toolbelt CLI:
+The initial heading font chosen was [Dancing Script](https://fonts.google.com/specimen/Dancing+Script?query=danc). However upon testing the font was not that clear to read and did not make enough of an impact for a logo text.
+Instead, [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=amatic) was picked as this provided a bolder look while still in keeping with the overall vision of the site. Of the fonts suggested by Google Fonts for appropriate pairings, [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open) was chosen for the paragraph text. It is a clean legible font, which sits nicely of the page alongside the heading text. Sans-serif was added as a backup option for those browsers that do not support some of the modern typefaces.  
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Site Skeleton
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+[Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser and a mobile browser format. 
 
-------
+![Balsamiq Mobile Image]()
 
-## Release History
+![Balsamiq Desktop Image]()
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+# Features
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+Navigation Bar and Landing Page
+- The navigation bar features at the top of all three pages of the site and is fully responsive
+- The uniform styling aims to link all pages together for a seamless, fluid feel
+- The bar contains links to all other pages across the site
+- The landing page image has been used to immediately demonstrate what the website can offer and a circle image of text has also been added to summarise all services available
+- Further down the page there are three images to promote the three types of services available to the user. Each image has been picked as it provides a clear visual description of the service along with a brief text underneath. Each image has a hover effect which when clicked directs the user to the contact page form
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Landing Page](image)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### How To Play Pop Up
+- This outlines the rules of the game for players
+- It also includes a video from the TV show "The Big Bang Theory" where the idea of the game first appeared
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![How To Play Pop Up]()
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Contact Pop Up
+- Players can leave their name and email and also submit any comments
+- It enables players to provide feedback to the developers regarding the game and also report and issues or errors
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![Contact Form]()
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Testing
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- [EightShapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23D9BDB2%0D%0A%23FFE9E5%0D%0A%23B17067%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) was used to check that text was compliant on both foreground and background colour combinations
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+# Bugs
 
-------
 
-## FAQ about the uptime script
+# Validator Testing
+## HTML
 
-**Why have you added this script?**
+[W3C Markup](https://validator.w3.org/#validate_by_input) was used to check for any errors within my HTML pages.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+![W3C Validator]() 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+![W3C Validator]() 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![W3C Validator]() 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## CSS
 
-**So….?**
+[W3C CSS Validator](https://validator.w3.org/#validate_by_uri) was used to check for any error within my CSS stylesheet. No errors were found.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![W3C Validator]()
 
-**Can I opt out?**
+## Accessibility
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Google Dev Tools Lighthouse was used to check for any accessibility issues.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Landing Page
 
-**Anything more?**
+![Landing Page]()
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
+# Deployment
 
-Happy coding!
+The site was deployed to GitHub pages.
+
+The steps to deploy are as follows:
+
+In the GitHub repository, navigate to the Settings tab
+Select the Pages sub-menu
+From the source section drop-down menu, select the Master Branch, and then hit save
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.  
+
+The live link can be found here - (https://saramorrin.github.io/rock-paper-scissors-lizard-spock/)
+
+# Credits
+- I used W3Schools Tutorial pages to help further my understanding of modal boxes.
+
+# Media
+ - All fonts came from [Google Fonts](https://fonts.google.com/) 
+ 
+  
+
+
