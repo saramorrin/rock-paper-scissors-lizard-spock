@@ -128,12 +128,9 @@ function main() {
 
 var modal = document.getElementById("myModal");
 
-
 var btn = document.getElementById("myBtn");
 
-
 var span = document.getElementsByClassName("close")[0];
-
 
 btn.onclick = function() {
   modal.style.display = "block";
@@ -150,7 +147,6 @@ window.onclick = function(event) {
 }
 
 /** Get In Touch Modal */
-
 
 var modal = document.getElementById("contactModal");
 

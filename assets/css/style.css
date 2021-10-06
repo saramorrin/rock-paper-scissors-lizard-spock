@@ -24,6 +24,8 @@ h1, h2{
 }
 
 footer {
+    position: fixed;
+    margin-left: 20px;
     bottom: 0;
     font-family: "Varela Round", sans-serif !important;
     font-size: 100%;
@@ -246,19 +248,21 @@ footer {
       
       .player {
         width: 50%;
-        
-        
-         
       }
 
       .computer{
-        display: inline-block;
-        text-align: center;
-        float: right;
-        margin-right: 50px;
-        border: 5px solid white;
-        padding: 5px;
-        background-color: #A480F2;  
+        width: 50%;
+         
+      }
+
+      #player-image {
+        width: 100%;
+        height: auto;
+      }
+
+      #computer-image {
+        width: 100%;
+        height: auto;
       }
       
       
