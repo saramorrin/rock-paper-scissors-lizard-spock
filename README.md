@@ -1,4 +1,4 @@
-# Clement Yoga
+# Rock, Paper, Scissors, Lizard, Spock
 
 The Clement Yoga website is a website for people looking to practice yoga, either in a class environment, online at home or in a private one to one setting.  
 Clement Yoga also offers personalised meditation techniques and yoga retreats to its clients.
