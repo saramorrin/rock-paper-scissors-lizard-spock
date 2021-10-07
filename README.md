@@ -1,13 +1,16 @@
 # Rock, Paper, Scissors, Lizard, Spock
 
-The Clement Yoga website is a website for people looking to practice yoga, either in a class environment, online at home or in a private one to one setting.  
-Clement Yoga also offers personalised meditation techniques and yoga retreats to its clients.
+Welcome to my Rock, Paper, Scissors, Lizard, Spock game.
 
-Users of the site will be able to see the services which Clement Yoga offer, along with a step by step simple meditation technique to follow at home and a contact page to get in touch for further details.
+Most people are familar with the basic Rock, Paper, Scissors game, but not everyone has heard of the Rock, Paper, Scissors, Lizard, Spock game. This version of the game orginated from the TV show, Big Bang Theory. This game adds 2 extra options, Lizard and Spock. The addition of these options changes the dynamic of the game providing the player with more variety and oportunity to win (and lose).
+
+This project uses the programming languages of HTML5, CSS and Javascript.
 
 A live website can be found [here](https://saramorrin.github.io/rock-paper-scissors-lizard-spock/)
 
 ![Website Preview]()
+
+
 
 # Site Design Considerations
 
