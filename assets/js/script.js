@@ -155,23 +155,23 @@ window.onclick = function(event) {
 
 /** Get In Touch Modal */
 
-var modal = document.getElementById("contactModal");
+var getInTouchModal = document.getElementById("contactModal");
 
-var btn = document.getElementById("contactBtn");
+var getInTouchBtn = document.getElementById("contactBtn");
 
-var span = document.getElementsByClassName("close-contact")[0];
+var getInTouchSpan = document.getElementsByClassName("close-contact")[0];
 
-btn.onclick = function() {
-  modal.style.display = "block";
+getInTouchBtn.onclick = function() {
+  getInTouchModal.style.display = "block";
 }
 
-span.onclick = function() {
-  modal.style.display = "none";
+getInTouchSpan.onclick = function() {
+  getInTouchModal.style.display = "none";
 }
 
 window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == getInTouchModal) {
+    getInTouchModal.style.display = "none";
   }
 }
 
