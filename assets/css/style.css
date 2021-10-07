@@ -237,14 +237,16 @@ footer {
     .text-input {
       height: 40px;
       width: 100%;
+      padding: 12px 20px;
       margin: 5px 0 20px 0;
       border: 1px solid white;
       border-radius: 2px;
     }
 
     .submit-button {
-      border-radius: 25px;
+      border: 15px solid white;
       padding: 10px 20px 10px 20px;
+      font-weight: bold;
     }
 
     @media screen and (max-width:375px) {
