@@ -62,7 +62,7 @@ function checkWinner() {
   if (playerScoreValue === 5 || computerScoreValue === 5) {
     const winner = 
       playerScoreValue === 5
-      $('#winnerModal').modal('show');
+      
     alert(winner);
     return true;
   }

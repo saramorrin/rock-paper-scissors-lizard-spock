@@ -1,91 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock, Paper, Scissors, Lizard, Spock</title>
-</head>
-<body>
-    <main>
-    <h1>Rock Paper Scissors Lizard Spock</h1>
-    <h2>Let's Go!</h2>
-
-        <div class="choices">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Monoton&display=swap">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Rock, Paper, Scissors, Lizard, Spock</title>
+   </head>
+   <body>
+      <main>
+         <h1>Rock Paper Scissors Lizard Spock</h1>
+         <h2>Let's Go!</h2>
+         <!--main game area, player choices-->
+         <div class="choices">
             <div class="choice" id="rock">
-                <img src="assets/images/rock.png" alt="Image of a rock">
-                <p>rock</p>   
+               <img src="assets/images/rock.png" alt="Image of a rock">
+               <p>rock</p>
             </div>
             <div class="choice" id="paper">
-                <img src="assets/images/paper.png" alt="Image of a newspaper">
-                <p>paper</p>
+               <img src="assets/images/paper.png" alt="Image of a newspaper">
+               <p>paper</p>
             </div>
             <div class="choice" id="scissors">
-                <img src="assets/images/scissors.png" alt="Image of a pair of scissors">
-                <p>scissors</p>
+               <img src="assets/images/scissors.png" alt="Image of a pair of scissors">
+               <p>scissors</p>
             </div>
             <div class="choice" id="lizard">
-                <img src="assets/images/lizard.png" alt="Image of a green lizard">
-                <p>lizard</p>
+               <img src="assets/images/lizard.png" alt="Image of a green lizard">
+               <p>lizard</p>
             </div>
             <div class="choice" id="spock">
-                <img src="assets/images/spock.png" alt="Image of the vulcan salute hand gesture">
-                <p>spock</p>
+               <img src="assets/images/spock.png" alt="Image of the vulcan salute hand gesture">
+               <p>spock</p>
             </div>
-        </div>
-        <div id=results-message>Result:</div>
-        <div class="player">
+         </div>
+         <!--display results message, player choice image and computer choice image-->
+         <div id=results-message>Result:</div>
+         <div class="player">
             <img id="player-image" src="assets/images/rock-result.png" alt="Rock">
-            <div class="scores">Your Score: </div> 
+            <div class="scores">Your Score: </div>
             <span id="player-score">0</span>
-        </div>
-        <div class="computer">
+         </div>
+         <div class="computer">
             <img id="computer-image" src="assets/images/scissors-result.png" alt="Scissors"> 
             <div class="scores">Computer Score: </div>
             <span id="computer-score">0</span>
-        </div>
-        
-          
-        
-    
-    <button id="myBtn">How to Play</button>
-    <div id="myModal" class="modal">
-    <div class="modal-content">
-    <span class="close">&times;</span>
-    <p>-Scissors decapitate Scissors-<br>-Scissors cuts Paper-<br>-Paper covers Rock-<br>-Rock crushes Lizard-<br>-Lizard poisons Spock-<br>
-    -Spock smashes Scissors-<br>-Scissors decapitates Lizard-<br>-Lizard eats Paper-<br>-Paper disproves Spock-<br>-Spock vaporizes 
-    Rock-<br>and as it always has, Rock crushes Scissors.<br><br><em>The Big Bang Theory, Season 2: The Lizard-Spock Expansion</em></p>
-    <div class="iframe-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pIpmITBocfM" title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-</div>
-</div>
-
-<button id="contactBtn">Get In Touch</button>
-    <div id="contactModal" class="modal-contact">
-    <div class="modal-contact-content">
-    <span class="close-contact">&times;</span>
-    <form class="contact-form" method="post" action="https://formdump.codeinstitute.net/">
-            <label for="fname">Name</label>
-           <input id="fname" class="text-input" type="text" name="name" placeholder="Name" required /><br>
-           <label for="email">Email</label>
-           <input id="email" class="text-input" type="email" name="email" placeholder="Email" required /><br>
-            <label for="comments">Comments</label>
-           <input id="comments" class="text-input" type="text" name="comments" placeholder="Write your comments here!" required />
-           <button class="submit-button">Submit</button>
-    </form>
-</div>
-</div>
-</main>
-        
-    
-<!--Social media links and Images accreditation-->
-    <footer>
-        <div id="footer"></div>
+         </div>
+         <!--how to play button-->
+         <button id="myBtn">How to Play</button>
+         <div id="myModal" class="modal">
+            <div class="modal-content">
+               <span class="close">&times;</span>
+               <p>-Scissors decapitate Scissors-<br>-Scissors cuts Paper-<br>-Paper covers Rock-<br>-Rock crushes Lizard-<br>-Lizard poisons Spock-<br>
+                  -Spock smashes Scissors-<br>-Scissors decapitates Lizard-<br>-Lizard eats Paper-<br>-Paper disproves Spock-<br>-Spock vaporizes 
+                  Rock-<br>and as it always has, Rock crushes Scissors.<br><br><em>The Big Bang Theory, Season 2: The Lizard-Spock Expansion</em>
+               </p>
+               <div class="iframe-container">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/pIpmITBocfM" title="YouTube video player" frameborder="0" 
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+            </div>
+         </div>
+         <!--contact button-->
+         <button id="contactBtn">Get In Touch</button>
+         <div id="contactModal" class="modal-contact">
+            <div class="modal-contact-content">
+               <span class="close-contact">&times;</span>
+               <form class="contact-form" method="post" action="https://formdump.codeinstitute.net/">
+                  <label for="fname">Name</label>
+                  <input id="fname" class="text-input" type="text" name="name" placeholder="Name" required /><br>
+                  <label for="email">Email</label>
+                  <input id="email" class="text-input" type="email" name="email" placeholder="Email" required /><br>
+                  <label for="comments">Comments</label>
+                  <input id="comments" class="text-input" type="text" name="comments" placeholder="Write your comments here!" required />
+                  <button class="submit-button">Submit</button>
+               </form>
+            </div>
+         </div>
+      </main>
+      <!--Social media links and Images accreditation-->
+      <footer>
+         <div id="footer"></div>
          <ul class="social-links">
             <li>
                <a href="http://facebook.com" target="_blank" rel="noopener" 
@@ -104,11 +101,11 @@
                   aria-label="Visit our YouTube page (opens in new tab)"><i class="fab fa-youtube-square"></i></a>
             </li>
          </ul>
-        <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-        <!-- <div>Icons made by <a href="" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-        <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
-    </footer>
-    <script src="https://kit.fontawesome.com/21ba00f012.js" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
-</body>
+         <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+         <!-- <div>Icons made by <a href="" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+         <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+      </footer>
+      <script src="https://kit.fontawesome.com/21ba00f012.js" crossorigin="anonymous"></script>
+      <script src="assets/js/script.js"></script>
+   </body>
 </html>
