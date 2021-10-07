@@ -13,12 +13,15 @@ const spock = document.getElementById("spock");
 
 /** Display results */
 
+/** main game function to generate random computer choice */
 
 function getComputerChoice() {
   const choices = ['rock', 'paper', 'scissors', 'lizard', 'spock'];
   const randomNumber = Math.floor(Math.random() * 5);
   return choices[randomNumber];
 }
+
+/** win function called when player has gained point */
 
 function win(playerChoice, computerChoice) {
   let playerScoreValue = parseInt(playerScore.innerHTML) + 1;
@@ -30,6 +33,8 @@ function win(playerChoice, computerChoice) {
  
 }
 
+/** lose function called when computer has gained point */
+
 function lose(playerChoice, computerChoice) {
   let computerScoreValue = parseInt(computerScore.innerHTML) + 1;
   computerScore.innerHTML = computerScoreValue;
@@ -39,6 +44,8 @@ function lose(playerChoice, computerChoice) {
   checkWinner();
 }
 
+/** draw function called when no points are gained */
+
 function draw(playerChoice, computerChoice) {
   
   message.innerHTML = playerChoice + " equals " + computerChoice + " it's a draw! "
@@ -47,9 +54,9 @@ function draw(playerChoice, computerChoice) {
   checkWinner();
 }
 
+/** check winner function is called after first to reach 5 points */
 
 function checkWinner() {
-  console.log("i am here");
   let playerScoreValue = parseInt(playerScore.innerHTML);
   let computerScoreValue = parseInt(computerScore.innerHTML);
   if (playerScoreValue === 5 || computerScoreValue === 5) {
@@ -102,7 +109,7 @@ function game(playerChoice) {
     
   }
   
-/** Add event listener for each choice */
+/** add event listener for each possible choice */
 
 }
 function main() {
@@ -130,7 +137,7 @@ function main() {
 
   main();
   
-/** How To Play Modal */
+/** the how to play modal */
 
 
 var instructionModal = document.getElementById("myModal");
@@ -153,7 +160,7 @@ window.onclick = function(event) {
   }
 }
 
-/** Get In Touch Modal */
+/** get in touch modal */
 
 var getInTouchModal = document.getElementById("contactModal");
 

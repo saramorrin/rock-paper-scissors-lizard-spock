@@ -7,7 +7,7 @@
 /* main body styling */
 body {
     background-image: url("../images/background-disco.jpg");
-    height: 150%;
+    height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: aquamarine;
@@ -27,12 +27,12 @@ h1, h2{
 
 /* social media links and footer */
 
+main {
+  min-height: calc(100vh - 5px);
+}
+
 footer {
-  position: ;
-  margin-left: 20px;
-  bottom: 0;
-  font-family: "Varela Round", sans-serif !important;
-  font-size: 100%;
+  height: 100px;
   
 }
 
@@ -89,6 +89,7 @@ footer {
   text-align: center;
   float: left;
   margin-left: 150px;
+  margin-bottom: 150px;
   border: 5px solid white;
   padding: 5px;
   background-color: #FF82A8;  
@@ -100,6 +101,7 @@ footer {
   text-align: center;
   float: right;
   margin-right: 150px;
+  margin-bottom: 150px;
   border: 5px solid white;
   padding: 5px;
   background-color: #A480F2;  
