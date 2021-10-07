@@ -62,13 +62,16 @@ function checkWinner() {
   if (playerScoreValue === 5 || computerScoreValue === 5) {
     const winner = 
       playerScoreValue === 5
-        ? "You win the game! Congratulations!"
-        : "Computer wins the game! Try again next time!";
+      $('#winnerModal').modal('show');
     alert(winner);
     return true;
   }
   return false;
 }
+
+/** reset game function after 5 points and winner has been declared */
+
+
 
 /** The main game function, generate random choices */
 
