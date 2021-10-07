@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/* main body styling */
 body {
     background-image: url("../images/background-disco.jpg");
     height: 150%;
@@ -18,24 +18,49 @@ body {
     
 }
 
+/* headings */
+
 h1, h2{
     text-align: center;
     font-size: 300%;
 }
 
+/* social media links and footer */
+
 footer {
-    position: fixed;
-    margin-left: 20px;
-    bottom: 0;
-    font-family: "Varela Round", sans-serif !important;
-    font-size: 100%;
+  position: ;
+  margin-left: 20px;
+  bottom: 0;
+  font-family: "Varela Round", sans-serif !important;
+  font-size: 100%;
+  
 }
+
+.social-links{
+  text-align: center;
+}
+
+.social-links > li {
+  display: inline;
+  font-size: 200%;
+  margin: 1%;
+  padding: 7%;
+}
+
+.social-links i {
+  color: #A480F2;
+}
+
+.social-links i:hover {
+  color: black;
+}
+
 
 #results-message {
   font-family: "Varela Round", sans-serif !important;
 }
 
-/* Image Choice */
+/* player pick image choice */
 
 .choices {
   margin: 50px;
@@ -51,7 +76,7 @@ footer {
   cursor: pointer;
 }
 
-/* Results Section */
+/* main display for player and computer choice */
 
 #results-message {
   text-align: center;
@@ -80,7 +105,7 @@ footer {
   background-color: #A480F2;  
 }
 
-/* How To Play Modal Box */
+/* how to play modal box */
 
 #myBtn {
   background-color: #A480F2;
@@ -135,7 +160,7 @@ footer {
     cursor: pointer;
   }
 
-  /* Video Clip */
+  /* video clip inside how to play modal box */
 
   .iframe-container{
     position: relative;
@@ -151,7 +176,7 @@ footer {
     height: 100%;
   }
 
-  /* Get In Touch Modal Box */
+  /* get in touch modal box */
 
   #contactBtn {
     background-color: #A480F2;
@@ -166,12 +191,9 @@ footer {
     cursor: pointer;
     position: absolute;
     margin: 250px 125px;
-    
-   
   }
   
   .modal-contact {
-  
       display: none; 
       position: fixed; 
       z-index: 1; 
@@ -208,7 +230,7 @@ footer {
       cursor: pointer;
     }
 
-    /* Contact Form */
+    /* contact form inside get in touch modal box */
 
     .text-input {
       height: 40px;
@@ -268,11 +290,6 @@ footer {
       footer {
         font-size: 50%;
     }
-      
-      
-     
-      
-      
   }
   
   
