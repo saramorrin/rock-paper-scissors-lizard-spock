@@ -11,27 +11,15 @@ A live website can be found [here](https://saramorrin.github.io/rock-paper-sciss
 
 # Site Design Considerations
 
-### Client Expectations
 
-The basic functions requested by the client were:
-- Picture examples of the kinds of practices offered
-- A simple meditation demonstration to give potential clients some information to take away from the site which could be built upon should they wish to join
-- Convey a message of offering a way to deliver a more balanced, tranquil and mindful way of life through the practices and meditation techniques on available
-- Links to all social media channels, as currently most clients are directed to the business from these
-- Contact page where clients can get in touch with the company for further information
-
-The client would like to have the ability to add further functionality at a later point to include a class timetable for yoga classes, an online booking form for yoga classes and a dedicated retreat page to showcase past retreat events. 
-
-The client would like the website to convey a welcoming, serene and tranquil tone, focusing on using cool pink and grey based hues.
 
 ### User Expectations
-- User to be able to quickly and easily understand to purpose of the site
-- User to be able to find simple navigation around the website
-- User to be able to locate business contact details
-- User to be able to locate business social media links
-- User to be able to contact the business without leaving the site and using an external source
-- User to be able to view the site across an array of devices without loss of functionality
-- A user with disabilities will be able to navigate the site freely without obstruction
+- The game should be engaging for the player and clearly display a winner and a loser
+- The user interface should be easy to navigate
+- There should be rules of how to play the game if the player has not played the game before
+- The game should be resposive across a number of different media devices
+- There should be the ability to contact the creator of the game
+- There should be social media links to the game creators other games
 
 ## Colour Scheme and Font
 
