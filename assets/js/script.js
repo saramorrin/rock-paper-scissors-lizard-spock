@@ -62,7 +62,8 @@ function checkWinner() {
   if (playerScoreValue === 5 || computerScoreValue === 5) {
     const winner = 
       playerScoreValue === 5
-      
+      ? "You win the game! Congratulations!"
+      : "Computer wins the game! Try again next time!";
     alert(winner);
     return true;
   }
@@ -71,6 +72,12 @@ function checkWinner() {
 
 /** reset game function after 5 points and winner has been declared */
 
+compareInputs(playerChoice,computerChoice);
+updateScore();
+if (checkWinner()) {
+  playerScoreValue = computerScoreValue = 0;
+  updateScore();
+}
 
 
 /** The main game function, generate random choices */
