@@ -10,11 +10,7 @@ A live website can be found [here](https://saramorrin.github.io/rock-paper-sciss
 
 ![Website Preview]()
 
-
-
 # Site Design Considerations
-
-
 
 ### User Expectations
 - The game should be engaging for the player and clearly display a winner and a loser
@@ -22,21 +18,21 @@ A live website can be found [here](https://saramorrin.github.io/rock-paper-sciss
 - There should be rules of how to play the game if the player has not played the game before
 - The game should be resposive across a number of different media devices
 - There should be the ability to contact the creator of the game
-- There should be social media links to the game creators other games
+- There should be social media links to the game creators others games 
 
 ## Colour Scheme and Font
 
-[My Color Space](https://mycolor.space/?hex=%23D9BDB2&sub=1) was used to choose a complimentary colour pallet based on the images selected. The aim was to ensure the best use of contrasting colours inline with accessibility guidelines.  
+[My Color Space](https://mycolor.space/?hex=%23D9BDB2&sub=1) was used to choose a complimentary colour pallet based on the background image selected. The aim was to ensure the best use of contrasting colours inline with accessibility guidelines.  
 The colours used were:
-- #D9BDB2 background colour for site header and footer
-- #FFE9E5 background colour for site paragraph text and images
+- ##A480F2 colour for buttons, social media icons and computer background colour result
+- ##F978D4 player background result
 
-The initial heading font chosen was [Dancing Script](https://fonts.google.com/specimen/Dancing+Script?query=danc). However upon testing the font was not that clear to read and did not make enough of an impact for a logo text.
-Instead, [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=amatic) was picked as this provided a bolder look while still in keeping with the overall vision of the site. Of the fonts suggested by Google Fonts for appropriate pairings, [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open) was chosen for the paragraph text. It is a clean legible font, which sits nicely of the page alongside the heading text. Sans-serif was added as a backup option for those browsers that do not support some of the modern typefaces.  
+The initial font chosen was [Monoton](https://fonts.google.com/specimen/Monoton?query=Monoton). However upon testing the font was not that clear to read across all heading sizes and paragraphs.
+As a result, [Varela Round](https://fonts.google.com/specimen/Varela+Round?query=Varela+Round) was picked for the result text and modal boxes as this still provided bold look while still in keeping with the overall vision of the site. It is a clean legible font, which sits nicely of the page alongside the heading text. Sans-serif was added as a backup option for those browsers that do not support some of the modern typefaces.  
 
 ## Site Skeleton
 
-[Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser and a mobile browser format. 
+[Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser, table and a mobile browser format. 
 
 ![Balsamiq Mobile Image]()
 
@@ -44,7 +40,7 @@ Instead, [Amatic SC](https://fonts.google.com/specimen/Amatic+SC?query=amatic) w
 
 # Features
 
-Navigation Bar and Landing Page
+Landing Page
 - The navigation bar features at the top of all three pages of the site and is fully responsive
 - The uniform styling aims to link all pages together for a seamless, fluid feel
 - The bar contains links to all other pages across the site
@@ -55,13 +51,13 @@ Navigation Bar and Landing Page
 
 
 
-### How To Play Pop Up
+### How To Play Button
 - This outlines the rules of the game for players
 - It also includes a video from the TV show "The Big Bang Theory" where the idea of the game first appeared
 
 ![How To Play Pop Up]()
 
-### Contact Pop Up
+### Contact Button
 - Players can leave their name and email and also submit any comments
 - It enables players to provide feedback to the developers regarding the game and also report and issues or errors
 
@@ -99,9 +95,7 @@ Navigation Bar and Landing Page
 
 Google Dev Tools Lighthouse was used to check for any accessibility issues.
 
-Landing Page
-
-![Landing Page]()
+![Landing Page](assets/images/accessibility.jpeg)
 
 
 # Deployment
@@ -122,6 +116,9 @@ The live link can be found here - (https://saramorrin.github.io/rock-paper-sciss
 
 # Media
  - All fonts came from [Google Fonts](https://fonts.google.com/) 
+ - My background image came from [Pexels](https://www.pexels.com/)
+ - All icons came from [Font Awesome](https://fontawesome.com/)
+ - All images came from [Flat Icon](https://www.flaticon.com/)
  
   
 
