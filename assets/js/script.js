@@ -70,7 +70,7 @@ function checkWinner() {
   return false;
 }
 
-/** reset game function after 5 points and winner has been declared */
+/** reset game function after 5 points and winner has been declared 
 
 compareInputs(playerChoice,computerChoice);
 updateScore();

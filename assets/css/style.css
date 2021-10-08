@@ -7,13 +7,13 @@
 /* main body styling */
 body {
     background-image: url("../images/background-disco.jpg");
-    height: 100vh;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: aquamarine;
     font-family: "Monoton", sans-serif;
     padding-bottom: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 350px;
     
     
 }
@@ -87,7 +87,6 @@ footer {
 }
 
 .player {
-  display: inline-block;
   text-align: center;
   float: left;
   margin-left: 150px;
@@ -99,7 +98,6 @@ footer {
 
 
 .computer{
-  display: inline-block;
   text-align: center;
   float: right;
   margin-right: 150px;
@@ -155,6 +153,8 @@ footer {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    margin-top: 0;
+    padding-top: 0;
   }
   
   .close:hover,
@@ -280,6 +280,7 @@ footer {
 
       .computer{
         width: 25%;
+        padding: 0;
          
       }
 
@@ -293,12 +294,24 @@ footer {
         height: auto;
       }
 
+      #myBtn {
+        padding: 0;
+      }
+
+      #contactBtn {
+        padding: 0;
+      }
+
       footer {
         font-size: 50%;
     }
+
+    .social-links {
+      margin-top: 50px;
+    }
   }
 
-  @media screen and (max-width:900px) {
+  @media screen and (max-width:1024px) {
 
     h1, h2{
       text-align: center;
@@ -333,17 +346,28 @@ footer {
     }
 
     #player-image {
-      width: 100%;
+      width: 50%;
       height: auto;
     }
 
     #computer-image {
-      width: 100%;
+      width: 50%;
       height: auto;
     }
 
     footer {
       font-size: 50%;
+  }
+
+  #myBtn {
+    position: relative;
+    margin: 0;
+  }
+
+  #contactBtn {
+    position: relative;
+    margin: 0;
+    
   }
 }
   
