@@ -41,28 +41,35 @@ As a result, [Varela Round](https://fonts.google.com/specimen/Varela+Round?query
 # Features
 
 Landing Page
-- The navigation bar features at the top of all three pages of the site and is fully responsive
-- The uniform styling aims to link all pages together for a seamless, fluid feel
-- The bar contains links to all other pages across the site
-- The landing page image has been used to immediately demonstrate what the website can offer and a circle image of text has also been added to summarise all services available
-- Further down the page there are three images to promote the three types of services available to the user. Each image has been picked as it provides a clear visual description of the service along with a brief text underneath. Each image has a hover effect which when clicked directs the user to the contact page form
+-Introduction button - This button opens up a popup modal. This modal gives an introduction to where the game was initially created. There is also an embedded video of the scene at which the game was created.
+
+
+
+-Footer - The footer is placed at the bottom of this page. This contains all social media links that open up in a new tab. When hovering over each icon, the icon magnifies.
 
 ![Landing Page](image)
 
 
 
 ### How To Play Button
+- This button opens up a popup modal
 - This outlines the rules of the game for players
 - It also includes a video from the TV show "The Big Bang Theory" where the idea of the game first appeared
 
-![How To Play Pop Up]()
+![How To Play Button](assets/images/how-to-play-button.jpeg)
 
 ### Contact Button
+- This button opens up a popup modal
 - Players can leave their name and email and also submit any comments
-- It enables players to provide feedback to the developers regarding the game and also report and issues or errors
+- It enables players to provide feedback to the owners / developers regarding the game and also report any issues or errors
 
+![Get In Touch Button](assets/images/get-in-touch-button.jpeg)
 
-![Contact Form]()
+### Social Media Icons
+- Social media icons are displayed below to main game area 
+- The icons link to games social media pages which all open in a separate window. They also have a hover effect to improve the user experience
+
+![Social Media Icons](assets/images/social-media-icons.jpeg)
 
 
 
@@ -76,20 +83,16 @@ Landing Page
 # Validator Testing
 ## HTML
 
-[W3C Markup](https://validator.w3.org/#validate_by_input) was used to check for any errors within my HTML pages.
+[W3C Markup](https://validator.w3.org/#validate_by_input) was used to check for any errors within my HTML pages. No errors were found.
 
 
-![W3C Validator]() 
-
-![W3C Validator]() 
-
-![W3C Validator]() 
+![W3C Validator](assets/images/html-val.jpeg) 
 
 ## CSS
 
 [W3C CSS Validator](https://validator.w3.org/#validate_by_uri) was used to check for any error within my CSS stylesheet. No errors were found.
 
-![W3C Validator]()
+![W3C Validator](assets/images/css-val.jpeg)
 
 ## Accessibility
 
