@@ -69,16 +69,6 @@ function checkWinner() {
   return false;
 }
 
-/** reset game function after 5 points and winner has been declared 
-
-compareInputs(playerChoice,computerChoice);
-updateScore();
-if (checkWinner()) {
-  playerScoreValue = computerScoreValue = 0;
-  updateScore();
-}
-
-
 /** call function to display all possible results */
 
 function game(playerChoice) {
@@ -114,8 +104,7 @@ function game(playerChoice) {
     case "lizardlizard":
     case "spockspock":
       draw(playerChoice, computerChoice);
-      break;
-    
+      break;  
   }
   
 /** add event listener for each possible choice */
@@ -138,16 +127,13 @@ function main() {
     game("lizard");
   });
 
-
   spock.addEventListener('click', function() {
     game("spock");
   });
 }
-
   main();
   
 /** the how to play modal */
-
 
 var instructionModal = document.getElementById("myModal");
 
@@ -192,19 +178,3 @@ window.onclick = function(event) {
 };
 
 
-// Hello.
-//
-// This is JSHint, a tool that helps to detect errors and potential
-// problems in your JavaScript code.
-//
-// To start, simply enter some JavaScript anywhere on this page. Your
-// report will appear on the right side.
-//
-// Additionally, you can toggle specific options in the Configure
-// menu.
-
-function main() {
-  return 'Hello, World!';
-}
-
-main();

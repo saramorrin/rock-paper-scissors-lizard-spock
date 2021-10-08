@@ -8,7 +8,7 @@ This project uses the programming languages of HTML5, CSS and Javascript.
 
 A live website can be found [here](https://saramorrin.github.io/rock-paper-scissors-lizard-spock/)
 
-![Website Preview]()
+![Website Preview](assets/images.readme/responsive.jpeg)
 
 # Site Design Considerations
 
