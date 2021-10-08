@@ -40,38 +40,38 @@ As a result, [Varela Round](https://fonts.google.com/specimen/Varela+Round?query
 
 # Features
 
-Landing Page
--Introduction button - This button opens up a popup modal. This modal gives an introduction to where the game was initially created. There is also an embedded video of the scene at which the game was created.
+### Game Page
+- Featured at the top of the page is the title of the game. Players can quickly identify what the game is and the heading has a retro / space theme vibe in keeping with the games theme
+- Below this are the player choices. All of the images are clickable to enable the player to make their choice. Again I have used the same font styling as the header and chosen images to compliment this style. The images chosen are colourful and playful and sit well against the background 
 
+![Title & Choices](assets/images.readme/choices.jpeg)
 
+- When the player clicks a choice option the image relating to their choice is displayed in their box
+- The computer choice is generated and this choice is displayed in the computer box
+- The winner is declared above these display boxes and a point is awarded to the either the player score or the computer score
+- The opponent to reach 5 points first is declared the winner and the game ends
 
--Footer - The footer is placed at the bottom of this page. This contains all social media links that open up in a new tab. When hovering over each icon, the icon magnifies.
-
-![Landing Page](image)
-
-
+![Results](assets/images.readme/results.jpeg)
 
 ### How To Play Button
 - This button opens up a popup modal
 - This outlines the rules of the game for players
 - It also includes a video from the TV show "The Big Bang Theory" where the idea of the game first appeared
 
-![How To Play Button](assets/images/how-to-play-button.jpeg)
+![How To Play Button](assets/images.readme/how-to-play-button.jpeg)
 
 ### Contact Button
 - This button opens up a popup modal
 - Players can leave their name and email and also submit any comments
 - It enables players to provide feedback to the owners / developers regarding the game and also report any issues or errors
 
-![Get In Touch Button](assets/images/get-in-touch-button.jpeg)
+![Get In Touch Button](assets/images.readme/get-in-touch-button.jpeg)
 
 ### Social Media Icons
 - Social media icons are displayed below to main game area 
 - The icons link to games social media pages which all open in a separate window. They also have a hover effect to improve the user experience
 
-![Social Media Icons](assets/images/social-media-icons.jpeg)
-
-
+![Social Media Icons](assets/images.readme/social-media-icons.jpeg)
 
 # Testing
 
@@ -86,19 +86,19 @@ Landing Page
 [W3C Markup](https://validator.w3.org/#validate_by_input) was used to check for any errors within my HTML pages. No errors were found.
 
 
-![W3C Validator](assets/images/html-val.jpeg) 
+![W3C Validator](assets/images.readme/html-val.jpeg) 
 
 ## CSS
 
 [W3C CSS Validator](https://validator.w3.org/#validate_by_uri) was used to check for any error within my CSS stylesheet. No errors were found.
 
-![W3C Validator](assets/images/css-val.jpeg)
+![W3C Validator](assets/images.readme/css-val.jpeg)
 
 ## Accessibility
 
 Google Dev Tools Lighthouse was used to check for any accessibility issues.
 
-![Landing Page](assets/images/accessibility.jpeg)
+![Landing Page](assets/images.readme/accessibility.jpeg)
 
 
 # Deployment
