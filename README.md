@@ -34,9 +34,11 @@ As a result, [Varela Round](https://fonts.google.com/specimen/Varela+Round?query
 
 [Balsamiq](https://balsamiq.com/) was used to create wireframes of the website. This was very useful as it gives the template of the UI. Wireframes were designed for web browser, table and a mobile browser format. 
 
-![Balsamiq Mobile Image]()
+![Balsamiq Desktop Image](assets/images.readme/desktop.jpeg)
 
-![Balsamiq Desktop Image]()
+![Balsamiq Tablet Image](assets/images.readme/tablet.jpeg)
+
+![Balsamiq Mobile Image](assets/images.readme/mobile.jpeg)
 
 # Features
 
@@ -90,9 +92,15 @@ As a result, [Varela Round](https://fonts.google.com/specimen/Varela+Round?query
 
 ## CSS
 
-[W3C CSS Validator](https://validator.w3.org/#validate_by_uri) was used to check for any error within my CSS stylesheet. No errors were found.
+[W3C CSS Validator](https://validator.w3.org/#validate_by_uri) was used to check for any errors within my CSS stylesheet. No errors were found.
 
 ![W3C Validator](assets/images.readme/css-val.jpeg)
+
+## JavaScript
+
+[JS Hint Validator](https://jshint.com/) was used to check for any errors within my JavaScript file.
+
+![W3C Validator](assets/images.readme/js-val.jpeg)
 
 ## Accessibility
 

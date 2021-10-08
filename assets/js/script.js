@@ -26,11 +26,10 @@ function getComputerChoice() {
 function win(playerChoice, computerChoice) {
   let playerScoreValue = parseInt(playerScore.innerHTML) + 1;
   playerScore.innerHTML = playerScoreValue;
-  message.innerHTML = playerChoice + " beats " + computerChoice + " you win! "
-  playerImage.src = `assets/images/${playerChoice}-result.png`
+  message.innerHTML = playerChoice + " beats " + computerChoice + " you win! ";
+  playerImage.src = `assets/images/${playerChoice}-result.png`;
   computerImage.src = `assets/images/${computerChoice}-result.png`;
   checkWinner();
- 
 }
 
 /** lose function called when computer has gained point */
@@ -38,8 +37,8 @@ function win(playerChoice, computerChoice) {
 function lose(playerChoice, computerChoice) {
   let computerScoreValue = parseInt(computerScore.innerHTML) + 1;
   computerScore.innerHTML = computerScoreValue;
-  message.innerHTML = playerChoice + " loses to " + computerChoice + " you lose! "
-  playerImage.src = `assets/images/${playerChoice}-result.png`
+  message.innerHTML = playerChoice + " loses to " + computerChoice + " you lose! ";
+  playerImage.src = `assets/images/${playerChoice}-result.png`;
   computerImage.src = `assets/images/${computerChoice}-result.png`;
   checkWinner();
 }
@@ -48,8 +47,8 @@ function lose(playerChoice, computerChoice) {
 
 function draw(playerChoice, computerChoice) {
   
-  message.innerHTML = playerChoice + " equals " + computerChoice + " it's a draw! "
-  playerImage.src = `assets/images/${playerChoice}-result.png`
+  message.innerHTML = playerChoice + " equals " + computerChoice + " it's a draw! ";
+  playerImage.src = `assets/images/${playerChoice}-result.png`;
   computerImage.src = `assets/images/${computerChoice}-result.png`;
   checkWinner();
 }
@@ -80,7 +79,7 @@ if (checkWinner()) {
 }
 
 
-/** The main game function, generate random choices */
+/** call function to display all possible results */
 
 function game(playerChoice) {
   const computerChoice = getComputerChoice();
@@ -125,24 +124,24 @@ function game(playerChoice) {
 function main() {
   rock.addEventListener('click', function() {
     game("rock");
-  })
+  });
 
   paper.addEventListener('click', function() {
     game("paper");  
-  })
+  });
 
   scissors.addEventListener('click', function() {
     game("scissors");
-  })
+  });
 
   lizard.addEventListener('click', function() {
     game("lizard");
-  })
+  });
 
 
   spock.addEventListener('click', function() {
     game("spock");
-  })
+  });
 }
 
   main();
@@ -158,17 +157,17 @@ var instructionSpan = document.getElementsByClassName("close")[0];
 
 instructionBtn.onclick = function() {
   instructionModal.style.display = "block";
-}
+};
 
 instructionSpan.onclick = function() {
   instructionModal.style.display = "none";
-}
+};
 
 window.onclick = function(event) {
   if (event.target == instructionModal) {
     instructionModal.style.display = "none";
   }
-}
+};
 
 /** get in touch modal */
 
@@ -180,16 +179,32 @@ var getInTouchSpan = document.getElementsByClassName("close-contact")[0];
 
 getInTouchBtn.onclick = function() {
   getInTouchModal.style.display = "block";
-}
+};
 
 getInTouchSpan.onclick = function() {
   getInTouchModal.style.display = "none";
-}
+};
 
 window.onclick = function(event) {
   if (event.target == getInTouchModal) {
     getInTouchModal.style.display = "none";
   }
+};
+
+
+// Hello.
+//
+// This is JSHint, a tool that helps to detect errors and potential
+// problems in your JavaScript code.
+//
+// To start, simply enter some JavaScript anywhere on this page. Your
+// report will appear on the right side.
+//
+// Additionally, you can toggle specific options in the Configure
+// menu.
+
+function main() {
+  return 'Hello, World!';
 }
 
-
+main();
