@@ -89,7 +89,7 @@ footer {
 .player {
   text-align: center;
   float: left;
-  margin-left: 150px;
+  /*margin-left: 150px;*/
   margin-bottom: 150px;
   border: 5px solid white;
   padding: 5px;
@@ -100,7 +100,7 @@ footer {
 .computer{
   text-align: center;
   float: right;
-  margin-right: 150px;
+  /*margin-right: 150px;*/
   margin-bottom: 150px;
   border: 5px solid white;
   padding: 5px;
@@ -121,7 +121,7 @@ footer {
   font-size: 20px;
   cursor: pointer;
   position: absolute;
-  margin: 125px;
+  margin: 150px 275px;
  
 }
 
@@ -194,7 +194,7 @@ footer {
     font-size: 20px;
     cursor: pointer;
     position: absolute;
-    margin: 250px 125px;
+    margin: 250px 275px
   }
   
   .modal-contact {
