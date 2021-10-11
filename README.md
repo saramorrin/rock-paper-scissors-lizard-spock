@@ -83,7 +83,7 @@ As a result, [Varela Round](https://fonts.google.com/specimen/Varela+Round?query
 # Manual Testing
 
 - I have tested my site on Firefox, Safari and Google Chrome
-- I confirm that the game results are always correct and that the game ends after a player reaches a score of five points
+- I confirm that the game results are always correct and that a winner is declared after a player reaches a score of five points
 - I confirm that the game can be reset by clicking on the 'Play Again' button
 - I confirm that all modal pop ups are functional and that the form and be completed and submitted
 
