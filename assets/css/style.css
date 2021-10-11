@@ -87,7 +87,7 @@ footer {
 .player {
   text-align: center;
   float: left;
-  /*margin-left: 150px;*/
+  margin-left: 250px;
   margin-bottom: 150px;
   border: 5px solid white;
   padding: 5px;
@@ -98,11 +98,19 @@ footer {
 .computer{
   text-align: center;
   float: right;
-  /*margin-right: 150px;*/
+  margin-right: 250px;
   margin-bottom: 150px;
   border: 5px solid white;
   padding: 5px;
   background-color: #A480F2;  
+}
+
+/*buttons styling*/
+
+.button {
+  display: block;
+  width: 250px;
+  margin-bottom: 20px;
 }
 
 /* how to play modal box */
@@ -112,14 +120,14 @@ footer {
   border: none;
   color: white;
   padding: 15px 32px;
-  text-align: center;
+  /*text-align: center;*/
   text-decoration: none;
   float: none;
   font-family: "Monoton", sans-serif;
   font-size: 20px;
   cursor: pointer;
-  position: absolute;
-  margin: 150px 275px;
+  /*position: absolute;
+  margin: 150px 275px;*/
  
 }
 
@@ -187,12 +195,12 @@ footer {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    float: right;
+    /*float: right;*/
     font-family: "Monoton", sans-serif;
     font-size: 20px;
     cursor: pointer;
-    position: absolute;
-    margin: 250px 275px
+    /*position: absolute;
+    margin: 250px 275px*/
   }
   
   .modal-contact {
@@ -247,6 +255,23 @@ footer {
       border: 15px solid white;
       padding: 10px 20px 10px 20px;
       font-weight: bold;
+    }
+
+    /* play again reset button */
+
+    #resetBtn {
+    background-color: #A480F2;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*float: right;*/
+    font-family: "Monoton", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    /*position: absolute;
+    margin: 250px 275px*/
     }
 
     @media screen and (max-width:375px) {

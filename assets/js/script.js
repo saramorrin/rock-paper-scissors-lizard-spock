@@ -10,6 +10,7 @@ const paper = document.getElementById("paper");
 const scissors = document.getElementById("scissors");
 const lizard = document.getElementById("lizard");
 const spock = document.getElementById("spock");
+const resetBtn = document.getElementById("resetBtn");
 
 /** Display results */
 
@@ -176,5 +177,9 @@ window.onclick = function(event) {
     getInTouchModal.style.display = "none";
   }
 };
+
+/** add reset game button */
+resetBtn.addEventListener('click', () => window.location.reload())
+
 
 
