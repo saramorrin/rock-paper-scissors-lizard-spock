@@ -2,7 +2,7 @@
 
 Welcome to my Rock, Paper, Scissors, Lizard, Spock game.
 
-Most people are familar with the basic Rock, Paper, Scissors game, but not everyone has heard of the Rock, Paper, Scissors, Lizard, Spock game. This version of the game orginated from the TV show, Big Bang Theory. This game adds 2 extra options, Lizard and Spock. The addition of these options changes the dynamic of the game providing the player with more variety and oportunity to win (and lose).
+Most people are familiar with the basic Rock, Paper, Scissors game, but not everyone has heard of the Rock, Paper, Scissors, Lizard, Spock game. This version of the game originated from the TV show, Big Bang Theory. This game adds 2 extra options, Lizard and Spock. The addition of these options changes the dynamic of the game providing the player with more variety and opportunity to win (and lose).
 
 This project uses the programming languages of HTML5, CSS and Javascript.
 
@@ -16,7 +16,7 @@ A live website can be found [here](https://saramorrin.github.io/rock-paper-sciss
 - The game should be engaging for the player and clearly display a winner and a loser
 - The user interface should be easy to navigate
 - There should be rules of how to play the game if the player has not played the game before
-- The game should be resposive across a number of different media devices
+- The game should be responsive across a number of different media devices
 - There should be the ability to contact the creator of the game
 - There should be social media links to the game creators others games 
 
@@ -69,18 +69,23 @@ As a result, [Varela Round](https://fonts.google.com/specimen/Varela+Round?query
 
 ![Get In Touch Button](assets/images.readme/get-in-touch-button.jpeg)
 
+### Play Again Button
+- This button allows the scores to be reset and the player can begin the game again
+
+![Play Again Button](assets/images.readme/reset-button.jpeg)
+
 ### Social Media Icons
 - Social media icons are displayed below to main game area 
 - The icons link to games social media pages which all open in a separate window. They also have a hover effect to improve the user experience
 
 ![Social Media Icons](assets/images.readme/social-media-icons.jpeg)
 
-# Testing
+# Manual Testing
 
-- [EightShapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23000000%2C%20Black%0D%0A%23D9BDB2%0D%0A%23FFE9E5%0D%0A%23B17067%0D%0A%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp) was used to check that text was compliant on both foreground and background colour combinations
-
-# Bugs
-
+- I have tested my site on Firefox, Safari and Google Chrome
+- I confirm that the game results are always correct and that the game ends after a player reaches a score of five points
+- I confirm that the game can be reset by clicking on the 'Play Again' button
+- I confirm that all modal pop ups are functional and that the form and be completed and submitted
 
 # Validator Testing
 ## HTML
@@ -108,6 +113,17 @@ Google Dev Tools Lighthouse was used to check for any accessibility issues.
 
 ![Landing Page](assets/images.readme/accessibility.jpeg)
 
+# Development Cycle
+
+There were some elements I amended, re-positioned and added from my original wireframes as they were more visually appealing and also made the game more responsive across all devices.
+
+I also decided to include an additional button of 'Play Again' to allow the game to be reset after a winner has been declared.
+
+# Bugs
+
+- The computer result image box was not inline with the player result image box on devices of 375px and below. This was rectified by adding a height property to the box to make it responsive across all devices
+- The placeholder text for the contact form popup modal was too close to the left side edge, making the characters of the input text hard to read. The was rectified by adding padding to the left side for the text input
+- The submit button on the form was spilling outside the bottom of the form box. This was rectified by increasing the height of the form element
 
 # Deployment
 
@@ -115,10 +131,10 @@ The site was deployed to GitHub pages.
 
 The steps to deploy are as follows:
 
-In the GitHub repository, navigate to the Settings tab
-Select the Pages sub-menu
-From the source section drop-down menu, select the Master Branch, and then hit save
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.  
+1. In the GitHub repository, navigate to the Settings tab
+2. Select the Pages sub-menu
+3. From the source section drop-down menu, select the Master Branch, and then hit save
+4. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.  
 
 The live link can be found here - (https://saramorrin.github.io/rock-paper-scissors-lizard-spock/)
 
@@ -130,6 +146,7 @@ The live link can be found here - (https://saramorrin.github.io/rock-paper-sciss
  - My background image came from [Pexels](https://www.pexels.com/)
  - All icons came from [Font Awesome](https://fontawesome.com/)
  - All images came from [Flat Icon](https://www.flaticon.com/)
+ 
  
   
 

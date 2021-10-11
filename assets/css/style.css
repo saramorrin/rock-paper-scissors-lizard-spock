@@ -316,6 +316,10 @@ footer {
         padding: 0;
       }
 
+      #resetBtn {
+        padding: 0;
+      }
+
       footer {
         font-size: 50%;
     }
